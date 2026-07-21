@@ -46,18 +46,23 @@ The system successfully bypassed booking IDs and selected relevant numerical and
 ---
 
 ## Local Setup & Execution
-```bash
 
 **1. Clone the repository**
-git clone https://github.com/cbouzios/ai_eda_pipeline.git
+```bash
+git clone [https://github.com/cbouzios/ai_eda_pipeline.git](https://github.com/cbouzios/ai_eda_pipeline.git)
 cd ai_eda_pipeline
+```
 
-**2. Intall Dependencies** 
+**2. Install dependencies**
+```bash
 pip install pandas matplotlib seaborn google-genai python-dotenv
+```
 
 **3. Configure Environment Variables**
-Create a .env file in the project root and add your Google Gemini API Key:
+Create a `.env` file in the project root and add your Google Gemini API Key:
+```env
 GEMINI_API_KEY=your_api_key_here
+```
 
 **4. Execute the Pipeline**
-Open the Jupyter Notebook (ai_analysis.ipynb), update the target CSV file variable to your desired dataset, and execute all cells sequentially.
+Open the Jupyter Notebook (`ai_analysis.ipynb`), update the target CSV file variable to your desired dataset, and execute all cells sequentially.
