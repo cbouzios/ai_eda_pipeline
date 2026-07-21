@@ -49,7 +49,7 @@ The system successfully bypassed booking IDs and selected relevant numerical and
 
 **1. Clone the repository**
 ```bash
-git clone [https://github.com/cbouzios/ai_eda_pipeline.git](https://github.com/cbouzios/ai_eda_pipeline.git)
+git clone https://github.com/cbouzios/ai_eda_pipeline.git
 cd ai_eda_pipeline
 ```
 
